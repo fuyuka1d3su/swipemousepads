@@ -1,0 +1,30 @@
+/* CRÉDIT DU CSS À W3SCHOOLS */
+ul.menu {
+  position: sticky;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+li.menu {
+  float: left;
+}
+
+li.menu a  {
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 24px 12px;
+  text-decoration: none;
+}
+
+/* Change la couleur quand la souris hover sur les boutons */
+li.menu a:hover {
+  background-color: rgb(109, 108, 108);
+}
+
+
+
+

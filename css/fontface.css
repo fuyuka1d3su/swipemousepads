@@ -1,0 +1,9 @@
+@font-face {
+    font-family:monsterratBold;
+    src: url(/fonts/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family:monsterratLight;
+    src: url(/fonts/Montserrat-Light.ttf);
+}

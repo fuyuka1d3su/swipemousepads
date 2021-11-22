@@ -1,0 +1,9 @@
+/* CRÉDIT DU CSS À W3SCHOOLS */
+.lowfooter {
+    position: static;
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}

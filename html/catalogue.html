@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon.png">
+    <title>SWIPE • Catalogue</title>
+    <!-- 
+        Premier CSS : Menu en blanc de l'index
+        Deuxième CSS : Permet d'utiliser les polices comme il faut
+        Troisième CSS : Footer normal qui reste au bas de la page-->
+    <link rel="stylesheet" href="/css/menuindex.css">
+    <link rel="stylesheet" href="/css/fontface.css">
+    <link rel="stylesheet" href="/css/lowfooter.css">
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 20px;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<!-- Importation d'un autre arrière-plan -->
+
+<body style="background-image: url(/images/backgrounds/backgroundCATALOGUE.png);">
+    <!-- Importation d'un liste avec la classe menu au CSS qui émule un menu de navigation au haut de la page à l'aide du CSS attaché-->
+    <ul class="menu">
+        <a href="/index.html"><img src="/images/logoSWIPE/SWIPE-Light.png" alt=""
+                style="float: left;margin-top: 15px;margin-left: 15px;"></a>
+        <div style="font-family:monsterratBold;float: right;">
+            <li class="menu"><a href="/index.html">Accueil</a></li>
+            <li class="menu"><a href="/html/catalogue.html">Catalogue</a></li>
+            <li class="menu"><a href="/html/contact.html">Nous Contacter</a></li>
+        </div>
+    </ul>
+    <center>
+        <!-- Le gros titre en H1 -->
+        <p style="font-family:monsterratBold;font-size: 50px;color: white;margin-top: 150px;">NOS TAPIS DE SOURIS</p>
+        <!-- Importation des images, textes et des redirects sur les pages spéciales de chaque tapis -->
+        <a href="./spdaybreak.html">
+            <img src="/images/COLLECTION SP/SPDB-1_720x.png" alt="" height="500px" width="500px">
+            <p style="color: white;font-family:monsterratLight;font-size: large;">SP (Daybreak)</p>
+        </a>
+        <a href="./herolotus.html">
+            <img src="/images/COLLECTION HERO/HL-1_720x.png" alt="" height="500px" width="500px">
+            <p style="color:white;font-family:monsterratLight;font-size: large;margin-bottom: 200px;">Hero (Lotus)</p>
+        </a>
+    </center>
+
+
+
+    <table
+        style="width: 50%;margin-bottom: 40px;margin-left: auto;margin-right: auto;margin-top: 250px;background-color: white;">
+        <caption style="font-family: monsterratBold;color: white;font-size: 25px;margin-bottom: 15px;">Lequel choisir ?
+        </caption>
+        <tr style="font-family: monsterratBold;text-align: center;">
+            <th></th>
+            <th>Résistance à l'eau OPTIMISÉ SWIPE</th>
+            <th>Coins cousus</th>
+            <th>Base anti-glissement OPTIMISÉ SWIPE</th>
+        </tr>
+        <tr style="font-family: monsterratLight;text-align: center;">
+            <td>Swipe SP-Daybreak</td>
+            <td>✔️</td>
+            <td>❌</td>
+            <td>✔️</td>
+        </tr>
+        <tr style="font-family: monsterratLight;text-align: center;">
+            <td>Swipe Hero (Lotus)</td>
+            <td>✔️</td>
+            <td>✔️</td>
+            <td>✔️</td>
+        </tr>
+        <tr style="font-family:monsterratLight;text-align: center;">
+            <td>Tapis de la compétition</td>
+            <td>❌</td>
+            <td>❌</td>
+            <td>❌</td>
+        </tr>
+    </table>
+
+    <!-- Le footer qui suis partout lors du scrollage de la page -->
+    <div class=lowfooter>
+        <p style="font-family: monsterratLight;background-size: 100%;">© 2021, SWIPE. Toutes les images et textes
+            appartiennent à Swipe. [DA :
+            2174335 • Nom : Nazim Baraka]</p>
+    </div>
+</body>
+
+</html>

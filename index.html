@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- La petite icone de la barre-->
+    <link rel="icon" href="./favicon.png">
+    <title>SWIPE • Accueil</title>
+    <!--L'importation de ces styles permettent d'utiliser : Polices, menu de navigation et footer-->
+    <!--Ce CSS est propre à l'index pour lui permettre d'avoir un menu en blanc (ça rend mieux avec le background)-->
+    <link rel="stylesheet" href="/css/menuindex.css">
+    <link rel="stylesheet" href="/css/fontface.css">
+    <!--Ce style est propre à la page d'index pour que le footer bouge avec le scrolling de la page-->
+    <!-- La deuxième partie du style permet de jouer avec la table au bas de la page. -->
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .lowfooter {
+            position: fixed;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 20px;
+            border-collapse: collapse;
+        }
+    </style>
+
+</head>
+
+<body style="background-image: url(./images/backgrounds/backgroundINDEX.png);background-repeat: no-repeat;">
+    <!--Importation de l'arrière-plan-->
+    <!-- Importation d'un liste avec la classe menu au CSS qui émule un menu de navigation au haut de la page à l'aide du CSS attaché-->
+    <!--Note, j'ai créé la classe MENU pour ne pas changer les autres listes de la page-->
+    <ul class="menu">
+        <a href="index.html"><img src="/images/logoSWIPE/SWIPE-Light.png" alt=""
+                style="float: left;margin-top: 15px;margin-left: 15px;"></a>
+        <div style="font-family:monsterratBold;float: right;">
+            <li class="menu"><a href="/index.html">Accueil</a></li>
+            <li class="menu"><a href="/html/catalogue.html">Catalogue</a></li>
+            <li class="menu"><a href="/html/contact.html">Nous Contacter</a></li>
+        </div>
+    </ul>
+
+    <!--Le div pour tout centrer parce-que ça fait stylé -->
+    <div style="text-align: center;">
+        <!--Rajoute le redirect sur le site officiel de SWIPE par le logo (que j'ai fait moi même je suis très fier)-->
+        <a href="https://www.swipemousepads.com" target="_blank">
+            <img height="170px" style="margin-top: 140px;" src="./images/logoSWIPE/swipelogoIMPRO.png">
+        </a>
+        <!--Le grand titre de la page index juste en dessous du logo en grand-->
+        <h1 style="color: white; font-family: monsterratBold; margin-top: 100px;font-size: 50px;">RAPIDITÉ. PRÉCISION.
+            <br>ERGONOMIQUE.
+        </h1>
+        <p style="color: white; font-family: monsterratLight; font-size: large; margin-top: 50px;">
+            Fondée par un groupe d'individus passionnés, SWIPE est une entreprise de périphériques qui
+            <br> se concentre sur la construction d'excellents produits et le développement d'une grande
+            communauté.</br>
+            Apprécié par vos créateurs de contenu favoris et joueurs professionnels, SWIPE est déterminé à contribuer
+            <br>à votre périple de gaming.
+        </p>
+
+        <h2 style="color: white; font-family: monsterratBold; margin-top: 420px;font-size: 50px;">NOS COLLECTIONS
+            ACTUELLES </h2>
+
+    </div>
+    <!--Première collection avec les images des tapis et des textes et titres-->
+    <img src="/images/COLLECTION SP/SP-icon_720x.png" alt="" height="600px"
+        style="margin-left: 250px;margin-top: 170px;float: left;">
+    <a href="/html/spdaybreak.html">
+        <p
+            style="margin-right: 260px;margin-top: 400px;color: white;font-family: monsterratBold;text-align:right;font-size: 35px;">
+            COLLECTION SWIPE SP </p>
+
+    </a>
+
+    <p
+        style="margin-right: 70px;color: white;font-family: monsterratLight;float: right;font-size: 20px;text-align: center;">
+        Le SWIPE SP est notre première interprétation d'un tapis de souris.
+        <br>Nous voulions créer une surface lisse avec un force d'arrêt exceptionnelle</br>
+        pour vous donner le plus de précision possible lorsque vous jouez à vos jeux préférés.
+    </p>
+    <!-- Deuxième collection, même chose avec la première-->
+    <img src="/images/COLLECTION HERO/HL-icon_720x.png" alt="" height="600px"
+        style="float: right;margin-top: 550px;margin-right: 250px;">
+    <a href="/html/herolotus.html">
+        <p
+            style="color: white;font-family: monsterratBold;font-size: 35px;margin-top: 860px;margin-left: 330px;text-align: left;">
+            COLLECTION HERO</p>
+    </a>
+
+    <p
+        style="margin-right: 70px;color: white;font-family: monsterratLight;float: right;font-size: 20px;text-align: center;">
+        Le SWIPE Hero offre le meilleur des deux mondes. Une grande vitesse et un grand contrôle.
+        <br>Nous voulions créer un produit qui s'adresse aux joueurs qui aiment </br>
+        les surfaces de tapis hors du commun.
+    </p>
+    <!-- Partie du bas du site "FAQ" avec une liste ordonnée (eh ouais je remplis les tâches lets go)-->
+    <h1 style="color: black; font-family: monsterratBold; margin-top: 870px;font-size: 50px;text-align: center;">
+        POURQUOI CHOISIR SWIPE ?</h1>
+    <img src="/images/COLLECTION SP/SPDB-1_720x.png" height="600px" alt=""
+        style="margin-left: 200px;margin-top: 30px;float: left;">
+    <ol type="I"
+        style="font-family: monsterratLight; margin-bottom: 300px;margin-top: 200px;color: black;margin-left: 420px;font-size: 23px;">
+        <li>Nous offrons des tapis de souris de très haute qualité avec des designs uniques, vous avez l'embarras du
+            choix.</li>
+        <br>
+        <li>Les prix sont abordables et ajustés afin d'avoir une balance parfaite entre prix et qualité de produit.
+        </li>
+        <br>
+        <li>Nos tapis sont très durables et fiables, vous ne serez pas déçus.</li>
+        <br>
+        <li>Notre service à la clientèle répondra à vos besoins très vite, vous serez entre de bonnes mains en cas
+            de
+            pépin.</li>
+        <br>
+        <li>En bref, en choisissant SWIPE vous ne pourrez pas vous tromper.</li>
+    </ol>
+    <!-- Partie SWIPE COMPARÉ À LA COMPÉTITION -->
+    <h1
+        style="color: black; font-family: monsterratBold; margin-top: 410px;font-size: 50px;text-align: center;margin: bottom 40px;">
+        SWIPE COMPARÉ À LA COMPÉTITION</h1>
+    <!-- Table comparant les tapis SWIPE aux compétiteurs -->
+    <table style="width: 50%;margin-bottom: 500px;margin-left: auto;margin-right: auto;margin-top: 150px;">
+        <caption style="font-family: monsterratBold;margin-bottom: 15px;">Collection des tapis SWIPE comparés à la
+            compétition</caption>
+        <tr style="font-family: monsterratBold;">
+            <th>SWIPE SP-Daybreak</th>
+            <th>SWIPE Hero (Lotus)</th>
+            <th>Razer Goliathus Speed</th>
+        </tr>
+        <tr style="font-family: monsterratLight;">
+            <td>Résistance à l'eau SWIPE</td>
+            <td>Résistance à l'eau SWIPE</td>
+            <td>Aucune résistance à l'eau</td>
+        </tr>
+        <tr style="font-family: monsterratLight;">
+            <td>Surface en microfibre OPTIMISÉ SWIPE</td>
+            <td>Surface en microfibre OPTIMISÉ SWIPE</td>
+            <td>Surface en microfibre de faible qualité</td>
+        </tr>
+        <tr style="font-family:monsterratLight;">
+            <td>Base anti-glissement OPTIMISÉ SWIPE</td>
+            <td>Base anti-glissement OPTIMISÉ SWIPE</td>
+            <td>Base anti-glissement ordinaire</td>
+        </tr>
+        <tr style="font-family:monsterratLight;">
+            <td>Designs et choix de couleurs variés</td>
+            <td>Designs et choix de couleurs variés</td>
+            <td>Designs très limités</td>
+        </tr>
+    </table>
+
+
+    <!-- Le footer qui suis partout lors du scrollage de la page -->
+    <div class=lowfooter>
+        <p style="font-family: monsterratLight;font-size: 17px;">© 2021, SWIPE. Toutes les images et textes
+            appartiennent à Swipe. [DA : 2174335 • Nom : Nazim Baraka]</p>
+    </div>
+
+</body>
+
+</html>
